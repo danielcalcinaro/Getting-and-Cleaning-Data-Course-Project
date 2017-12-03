@@ -1,0 +1,32 @@
+The features selected for this database come from the accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ. These time domain signals (prefix 't' to denote time) were captured at a constant rate of 50 Hz. Then they were filtered using a median filter and a 3rd order low pass Butterworth filter with a corner frequency of 20 Hz to remove noise. Similarly, the acceleration signal was then separated into body and gravity acceleration signals (tBodyAcc-XYZ and tGravityAcc-XYZ) using another low pass Butterworth filter with a corner frequency of 0.3 Hz. 
+
+Subsequently, the body linear acceleration and angular velocity were derived in time to obtain Jerk signals (tBodyAccJerk-XYZ and tBodyGyroJerk-XYZ). 
+'-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
+
+tBodyAcc-XYZ
+tGravityAcc-XYZ
+tBodyAccJerk-XYZ
+
+mean(): Mean value
+std(): Standard deviation
+
+so 18 of the variables are the combinations of the 3 dimensions (X, Y and Z), the 3 measurements (tBoddyAcc, tGravityAcc and tBodyAccJerk) and the 2 calculations (mean and std)
+
+"tBodyAcc.mean...X": Mean Body acceleration in X
+"tBodyAcc.mean...Y": Mean Body acceleration in Y
+"tBodyAcc.mean...Z": Mean Body acceleration in Z
+"tBodyAcc.std...X": Standard Deviation Body acceleration in X
+"tBodyAcc.std...Y": Standard Deviation Body acceleration in Y
+"tBodyAcc.std...Z": Standard Deviation Body acceleration in Z
+"tGravityAcc.mean...X": Mean Gravity acceleration in X
+"tGravityAcc.mean...Y": Mean Gravity acceleration in Y
+"tGravityAcc.mean...Z": Mean Gravity acceleration in Z
+"tGravityAcc.std...X": Standard Deviation Gravity acceleration in X
+"tGravityAcc.std...Y": Standard Deviation Gravity acceleration in Y
+"tGravityAcc.std...Z": Standard Deviation Gravity acceleration in Z
+"tBodyAccJerk.mean...X": Mean Body Jerk acceleration in X
+"tBodyAccJerk.mean...Y": Mean Body Jerk acceleration in Y
+"tBodyAccJerk.mean...Z": Mean Body Jerk acceleration in Z
+"tBodyAccJerk.std...X": Standard Deviation Body Jerk acceleration in X
+"tBodyAccJerk.std...Y": Standard Deviation Body Jerk acceleration in Y
+"tBodyAccJerk.std...Z": Standard Deviation Body Jerk acceleration in Z
